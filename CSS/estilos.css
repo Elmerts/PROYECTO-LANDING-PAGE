@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 1000;
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.highlight {
+    color: #e74c3c;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+main {
+    padding: 20px;
+    margin-top: 80px; /* Espacio para el encabezado fijo */
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    color: #e74c3c;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h2 {
+    color: #e74c3c;
+}
+
+.featured-cakes {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.featured-cakes h2 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.cake-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cake-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cake-item img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.cake-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cake-item p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.order-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #c0392b;
+}
+
+.staff {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+}
+
+.staff h2 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.staff p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.staff-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.staff-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.staff-member img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.staff-member p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #c0392b;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1);
+}
+
+.contact p {
+    color: #777;
+}
